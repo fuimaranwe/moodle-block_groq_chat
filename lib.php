@@ -85,46 +85,24 @@ function fetch_assistants_array($block_id = null) {
 function get_models() {
     return [
         "models" => [
-            'gpt-4o-2024-05-13' => 'gpt-4o-2024-05-13',
-            'gpt-4o' => 'gpt-4o',
-            'gpt-4-turbo-preview' => 'gpt-4-turbo-preview',
-            'gpt-4-turbo-2024-04-09' => 'gpt-4-turbo-2024-04-09',
-            'gpt-4-turbo' => 'gpt-4-turbo',
-            'gpt-4-32k-0314' => 'gpt-4-32k-0314',
-            'gpt-4-1106-vision-preview' => 'gpt-4-1106-vision-preview',
-            'gpt-4-1106-preview' => 'gpt-4-1106-preview',
-            'gpt-4-0613' => 'gpt-4-0613',
-            'gpt-4-0314' => 'gpt-4-0314',
-            'gpt-4-0125-preview' => 'gpt-4-0125-preview',
-            'gpt-4' => 'gpt-4',
-            'gpt-3.5-turbo-16k-0613' => 'gpt-3.5-turbo-16k-0613',
-            'gpt-3.5-turbo-16k' => 'gpt-3.5-turbo-16k',
-            'gpt-3.5-turbo-1106' => 'gpt-3.5-turbo-1106',
-            'gpt-3.5-turbo-0613' => 'gpt-3.5-turbo-0613',
-            'gpt-3.5-turbo-0301' => 'gpt-3.5-turbo-0301',
-            'gpt-3.5-turbo-0125' => 'gpt-3.5-turbo-0125',
-            'gpt-3.5-turbo' => 'gpt-3.5-turbo'
+            'llama-3.1-70b-versatile' => 'llama-3.1-70b-versatile',
+            'llama-3.1-8b-instant' => 'llama-3.1-8b-instant',
+            'llama3-70b-8192' => 'llama3-70b-8192',
+            'llama3-8b-8192' => 'llama3-8b-8192',
+            'mixtral-8x7b-32768' => 'mixtral-8x7b-32768',
+            'gemma-7b-it' => 'gemma-7b-it',
+            'gemma2-9b-it' => 'gemma2-9b-it',
+            'whisper-large-v3' => 'whisper-large-v3'
         ],
         "types" => [
-            'gpt-4o-2024-05-13'          =>  'chat',
-            'gpt-4o'                     =>  'chat',
-            'gpt-4-turbo-preview'        =>  'chat',
-            'gpt-4-turbo-2024-04-09'     =>  'chat',
-            'gpt-4-turbo'                =>  'chat',
-            'gpt-4-32k-0314'             =>  'chat',
-            'gpt-4-1106-vision-preview'  =>  'chat',
-            'gpt-4-1106-preview'         =>  'chat',
-            'gpt-4-0613'                 =>  'chat',
-            'gpt-4-0314'                 =>  'chat',
-            'gpt-4-0125-preview'         =>  'chat',
-            'gpt-4'                      =>  'chat',
-            'gpt-3.5-turbo-16k-0613'     =>  'chat',
-            'gpt-3.5-turbo-16k'          =>  'chat',
-            'gpt-3.5-turbo-1106'         =>  'chat',
-            'gpt-3.5-turbo-0613'         =>  'chat',
-            'gpt-3.5-turbo-0301'         =>  'chat',
-            'gpt-3.5-turbo-0125'         =>  'chat',
-            'gpt-3.5-turbo'              =>  'chat'
+            'llama-3.1-70b-versatile'          =>  'chat',
+            'llama-3.1-8b-instant'                     =>  'chat',
+            'llama3-70b-8192'        =>  'chat',
+            'llama3-8b-8192'     =>  'chat',
+            'mixtral-8x7b-32768'                =>  'chat',
+            'gemma-7b-it'             =>  'chat',
+            'gemma2-9b-it'  =>  'chat',
+            'whisper-large-v3'         =>  'chat'
         ]
     ];
 }
