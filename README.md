@@ -1,4 +1,6 @@
-# moodle-block_openai_chat
+# moodle-block_grow_chat
+
+I only changed the API endpoint to Groq openai compatible endpoint. You can use it with your groq API key and the opensource models on Groq.
 
 <img align="right" src="https://github.com/Limekiller/moodle-block_openai_chat/assets/33644013/21f73adc-5bd4-4539-999b-a3b0a83736e0" />
 
